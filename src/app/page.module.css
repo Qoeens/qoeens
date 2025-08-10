@@ -1,0 +1,140 @@
+:root {
+  --almond: #eddec3;
+  --twine: #c89f60;
+  --tumbleweed: #dab77f;
+  --calico: #e3c99c;
+  --rum-swizzle: #faf6e6;
+  --pearl-lusta: #fbf5d4;
+  --twine-alt: #c39b74;
+  --sorrell-brown: #cfb494;
+  --heathered-gray: #bcb194;
+  --thistle-green: #ccc8ac;
+  --font: 'Segoe UI', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--rum-swizzle);
+  font-family: var(--font);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: var(--almond);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--twine);
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.navItem {
+  color: var(--twine-alt);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.navItem:hover {
+  background-color: var(--tumbleweed);
+  color: white;
+}
+
+/* Main area */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--pearl-lusta);
+  padding: 10px 20px;
+  border-bottom: 2px solid var(--sorrell-brown);
+}
+
+.postBtn {
+  background-color: var(--twine);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.postBtn:hover {
+  background-color: var(--tumbleweed);
+}
+
+.searchInput {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--heathered-gray);
+  background-color: white;
+  font-size: 14px;
+  width: 200px;
+}
+
+/* Content area */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+.postCard {
+  width: 35vw;
+  height: 35vw;
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+/* Vertical content layout */
+.contentVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+/* Logout button styling */
+.logoutBtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.logoutBtn:hover {
+  background-color: #c0392b;
+}
