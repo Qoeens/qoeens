@@ -1,16 +1,4 @@
-:root {
-  --almond: #eddec3;
-  --twine: #c89f60;
-  --tumbleweed: #dab77f;
-  --calico: #e3c99c;
-  --rum-swizzle: #faf6e6;
-  --pearl-lusta: #fbf5d4;
-  --twine-alt: #c39b74;
-  --sorrell-brown: #cfb494;
-  --heathered-gray: #bcb194;
-  --thistle-green: #ccc8ac;
-  --font: 'Segoe UI', sans-serif;
-}
+
 
 .container {
   display: flex;
