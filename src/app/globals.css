@@ -13,6 +13,17 @@
   --heathered-gray: #bcb194;
   --thistle-green: #ccc8ac;
 }
+:root {
+  --almond: #eddec3;
+  --twine: #c89f60;
+  --tumbleweed: #dab77f;
+  --calico: #e3c99c;
+  --rum-swizzle: #faf6e6;
+  --pearl-lusta: #fbf5d4;
+  --sorrell-brown: #cfb494;
+  --heathered-gray: #bcb194;
+  --thistle-green: #ccc8ac;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
