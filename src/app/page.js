@@ -55,18 +55,30 @@ export default function Portal() {
           >
             Post
           </button>
+
           <input
             type="text"
             placeholder="Search..."
             className={styles.searchInput}
           />
+
+          {/* ✅ Messages button right below search */}
+          <button
+            className={styles.messageBtn}
+            onClick={() => alert("Messages feature coming soon!")}
+          >
+            💬 Messages
+          </button>
         </header>
+
 
         {/* Posts list */}
         <div className={styles.contentVertical}>
           {posts.map((post) => (
+
             <div key={post.id} className={styles.postCard}>
               <h3>{post.first_name}</h3>
+
               <p>{post.content}</p>
               {post.media_url && (
                 post.media_url.match(/\.(mp4|webm|mov)$/) ? (

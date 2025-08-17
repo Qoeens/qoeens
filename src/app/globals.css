@@ -2,24 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
-  --almond: #eddec3;
-  --twine: #c89f60;
-  --tumbleweed: #dab77f;
-  --calico: #e3c99c;
-  --rum-swizzle: #faf6e6;
-  --pearl-lusta: #fbf5d4;
-  --twine2: #c39b74;
-  --sorrell-brown: #cfb494;
-  --heathered-gray: #bcb194;
-  --thistle-green: #ccc8ac;
+  --almond: #3b5998;
+  --twine: #8b9dc3;
+  --tumbleweed: #dfe3ee;
+  --calico: #3b5998;
+  --rum-swizzle: #8b9dc3;
+  --pearl-lusta: #dfe3ee;;
+  --twine2: #3b5998;
+  --sorrell-brown: #8b9dc3;
+  --heathered-gray: #dfe3ee;
+  --thistle-green: #8b9dc3;
 }
 :root {
-  --almond: #eddec3;
-  --twine: #c89f60;
-  --tumbleweed: #dab77f;
-  --calico: #e3c99c;
+  --almond: #3b5998;
+  --twine: #8b9dc3;
+  --tumbleweed: #0b8f88;
+  --calico: #dfe3ee;
   --rum-swizzle: #faf6e6;
-  --pearl-lusta: #fbf5d4;
+  --pearl-lusta: lightgray;
   --sorrell-brown: #cfb494;
   --heathered-gray: #bcb194;
   --thistle-green: #ccc8ac;
@@ -33,7 +33,7 @@ body {
 }
 
 :root {
-  --background: #ffffff;
+  --background: white;
   --foreground: #171717;
 }
 

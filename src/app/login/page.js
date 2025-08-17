@@ -48,7 +48,7 @@ export default function LoginPage() {
         fontFamily: "'Segoe UI', sans-serif",
       }}
     >
-      <h1 style={{ color: "#c89f60", fontSize: "2.5rem", marginBottom: "0.2rem" }}>
+      <h1 style={{ color: "#3b5998", fontSize: "2.5rem", marginBottom: "0.2rem",  }}>
         Qoeens 👑
       </h1>
       <p style={{ color: "#cfb494", marginBottom: "2rem" }}>Rule Your Voice</p>
@@ -59,7 +59,7 @@ export default function LoginPage() {
           display: "flex",
           flexDirection: "column",
           gap: "14px",
-          backgroundColor: "white",
+          backgroundColor: "#8b9dc3",
           padding: "2rem",
           borderRadius: "12px",
           boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
@@ -95,8 +95,8 @@ export default function LoginPage() {
         <button
           type="submit"
           style={{
-            backgroundColor: "#c89f60",
-            color: "white",
+            backgroundColor: "lightgrey",
+            color: "black",
             border: "none",
             padding: "10px",
             borderRadius: "20px",
@@ -105,8 +105,8 @@ export default function LoginPage() {
             fontWeight: "bold",
             transition: "background 0.3s ease",
           }}
-          onMouseOver={(e) => (e.target.style.backgroundColor = "#dab77f")}
-          onMouseOut={(e) => (e.target.style.backgroundColor = "#c89f60")}
+          onMouseOver={(e) => (e.target.style.backgroundColor = "#b3cde0")}
+          onMouseOut={(e) => (e.target.style.backgroundColor = "lightgrey")}
         >
           Login
         </button>
